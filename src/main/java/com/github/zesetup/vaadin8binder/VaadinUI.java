@@ -39,7 +39,7 @@ public class VaadinUI extends UI {
     })
     .bind("name");
     VerticalLayout formContent = new VerticalLayout();
-    formContent.addComponents(name,surname);
+    formContent.addComponents(name, surname);
     setContent(formContent);
   }
 }
